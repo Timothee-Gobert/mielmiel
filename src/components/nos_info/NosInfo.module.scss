@@ -1,0 +1,29 @@
+.nosInfo {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titre {
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

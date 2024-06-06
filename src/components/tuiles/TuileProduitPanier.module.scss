@@ -1,0 +1,22 @@
+.tuile {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px auto;
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-around;
+  font-style: oblique;
+
+  .designation {
+    font-weight: 800;
+    width: 20vw;
+  }
+  .infoSecondaire {
+    width: 10vw;
+  }
+  .champFormulaire {
+    width: 15vw;
+  }
+}

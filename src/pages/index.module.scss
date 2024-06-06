@@ -1,0 +1,19 @@
+.container {
+  padding: 20px 50px;
+  .bloc {
+    display: flex;
+    .photo {
+      margin: 25px;
+      width: auto;
+      height: auto;
+    }
+    .texte {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .paragraphe {
+        text-align: justify;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.bouton {
+  margin: 5px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: rgb(255, 145, 0);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 00px 0px 10px 1px rgb(184, 183, 183);
+  color: white;
+  > svg {
+    margin-right: 10px;
+  }
+  &:hover {
+    background-color: rgba(255, 145, 0, 0.644);
+  }
+}
