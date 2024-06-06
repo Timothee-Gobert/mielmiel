@@ -4,6 +4,8 @@
 /node_modules
 package-lock.json
 
+/src/pages/api/credentials.json
+
 # next.js
 /.next/
 
